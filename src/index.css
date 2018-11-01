@@ -1,14 +1,20 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.flexi-form-container {
+	float: left;
+	padding: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.flexi-field {
+	float: left;
+	margin: 10px 5px;
+	width: 100%;
+}
+
+.flexi-label {
+	padding: 0 5px;
+}
+
+.flexi-submit {
+	float: left;
+	margin: 10px 5px;
+	padding: 5px;
 }
